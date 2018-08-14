@@ -111,12 +111,12 @@ if ($result['resposta']) {
                             <th class="text-right">Telefone</th>
                             <td>
                                 (<?php echo $result['telefone_ddd']?>)
-                                 <?php echo $result['telefone']?>
+                                 <?php echo $result['telefone_numero']?>
                             </td>
                             <th class="text-right">Celular</th>
                             <td>
                                 (<?php echo $result['celular_ddd']?>)
-                                 <?php echo $result['celular']?>
+                                 <?php echo $result['celular_numero']?>
                             </td>
                         </tr>
                         <tr>
